@@ -1,0 +1,89 @@
+/* Essential Start */
+:root {
+  --color1: #318bd0;
+  --color2: #0a0a0a;
+  --color3: #f0db4f;
+}
+
+/* Google Fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Sulphur Point', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+.navbar {
+  min-height: 4rem;
+}
+/* body {
+  background-color: var(--color2) !important;
+} */
+
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.2rem !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.5rem;
+  color: #000 !important;
+}
+
+/* hover line throught */
+.navbar-nav > li > a {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a:before,
+.navbar-nav > li > a:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #0000;
+}
+
+.navbar-nav > li > a:before {
+  left: -2.5px;
+}
+.navbar-nav > li > a:after {
+  right: 2.5px;
+  background: #000;
+  height: 5%;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.navbar-nav > li > a:hover:before {
+  background: #000;
+  width: 100%;
+  height: 5%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.navbar-nav > li > a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+/* hover line throught end */
+.heroText,
+.heroText > span {
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+}
+.heroText > span {
+  color: red !important;
+}
+
+/* .main-photo {
+  width: 231px;
+  height: 331px;
+} */
