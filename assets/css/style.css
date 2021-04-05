@@ -3,6 +3,7 @@
   --color1: #318bd0;
   --color2: #0a0a0a;
   --color3: #f0db4f;
+  --color4: #ffffff;
 }
 
 /* Google Fonts
@@ -11,6 +12,14 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Sulphur Point', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
+
+nav {
+  background-color: white !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 .navbar {
   min-height: 4rem;
@@ -37,6 +46,7 @@ font-family: 'Montserrat', sans-serif;
   position: relative;
   display: block;
   cursor: pointer;
+  font-weight: bolder;
 }
 
 .navbar-nav > li > a:before,
@@ -88,6 +98,23 @@ font-family: 'Montserrat', sans-serif;
   height: 331px;
 } */
 
-.heroText {
-  display: none;
+.btn-contact {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem !important;
+  background-color: var(--color3) !important;
+  border: solid 2px var(--color3) !important ;
+  border-radius: 50% !important;
+}
+
+hr {
+  margin-top: 2rem !important;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.py-5 {
+  margin-bottom: 4rem !important;
 }
