@@ -87,3 +87,7 @@ font-family: 'Montserrat', sans-serif;
   width: 231px;
   height: 331px;
 } */
+
+.heroText {
+  display: none;
+}
