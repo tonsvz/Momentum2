@@ -118,3 +118,10 @@ h1 {
 .py-5 {
   margin-bottom: 4rem !important;
 }
+
+/* Carousel */
+
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+}
