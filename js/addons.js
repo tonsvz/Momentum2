@@ -12,7 +12,7 @@ $nightMode.addEventListener("click", () => {
 (function ($) {
   "use strict";
 
-  //Page cursors
+  //Page cursors jasd
 
   document
     .getElementsByTagName("body")[0]
